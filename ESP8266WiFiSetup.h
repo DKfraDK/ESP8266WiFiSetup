@@ -83,6 +83,7 @@ const static char ICACHE_FLASH_ATTR WIFI_SETUP_HTML[] = R"xxx(
           display: flex;
           margin-top:5px;
           margin-bottom:5px;
+          cursor:pointer;
         }
         .divNetwork.top{
           border-bottom:2px solid black;
