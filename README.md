@@ -2,7 +2,7 @@
 A library for connecting the ESP8266 to a WiFi-network using a web server and a captive portal.
 Works with the ESP8266 Arduino platform https://github.com/esp8266/Arduino
 
-[img]./img/ESP8266WiFiSetupScreenshot.jpg[/img]
+![screenshot](./img/ESP8266WiFiSetupScreenshot.jpg)
 ## Quick Start
 - Clone the library to your Arduino libraries folder
 
