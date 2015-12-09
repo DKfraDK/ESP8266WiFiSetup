@@ -14,7 +14,7 @@
 #include <ESP8266WebServer.h>
 #include <DNSServer.h>
 
-const static char ICACHE_FLASH_ATTR WIFI_SETUP_HTML[] = R"xxx(
+const static char PROGMEM WIFI_SETUP_HTML[] = R"xxx(
   <!DOCTYPE html>
   <html lang='en'>
     <head>

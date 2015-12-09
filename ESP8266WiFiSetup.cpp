@@ -138,7 +138,7 @@ void ESP8266WiFiSetup::handleRoot() {
   server.sendHeader("Cache-Control", "no-cache, no-store, must-revalidate");
   server.sendHeader("Pragma", "no-cache");
   server.sendHeader("Expires", "-1");
-  server.send(200, "text/html", WIFI_SETUP_HTML);
+  server.send_P(200, "text/html", WIFI_SETUP_HTML);
 }
 
 void ESP8266WiFiSetup::handleGetNetworks() {
